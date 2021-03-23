@@ -16,3 +16,35 @@
     top:50%;
     transform: translate(-50%,-50%);
 }
+.hour{
+    font-size: 25px;
+    position: absolute;
+}
+/* .hour-1{
+    top: 15px;
+    right:60px;
+}
+.hour-2{
+    top: 60px;
+    right:25px;
+} */
+.hour-3{
+    top: 50%;
+    right:-10px;
+    transform: translate(-50%, -50%);
+}
+.hour-9{
+    top: 50%;
+    left:15px;
+    transform: translate(-50%, -50%);
+}
+.hour-6{
+    left: 50%;
+    bottom:-10px;
+    transform: translate(-50%, -50%);
+}
+.hour-12{
+    left: 50%;
+    top:15px;
+    transform: translate(-50%, -50%);
+}
