@@ -105,6 +105,18 @@
     position: absolute;
     left:50%;
     transform: translate(-50%, -0%);
+    border-radius: 10px;
+}
+.second-hand .hand::after{
+    content: "";
+    width:5px;
+    height:40px;
+    background: red;
+    position: absolute;
+    bottom: -40px;
+    left:50%;
+    transform: translate(-50%, -0%);
+    border-radius: 10px;
 }
 
 .minute-hand-brand {
@@ -124,6 +136,7 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%, -0%);
+    border-radius: 5px;
 }
 
 .hour-hand-brand {
