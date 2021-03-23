@@ -6,3 +6,13 @@
     margin:0 auto;
     position: relative;
 }
+.center-point{
+    width: 15px;
+    height: 15px;
+    background: #2a618b;
+    border-radius: 20px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
