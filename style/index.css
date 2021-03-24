@@ -1,0 +1,159 @@
+.clock{
+    width: 250px;
+    height: 250px;
+    border:5px solid #369de2;
+    border-radius:50%;
+    /* margin:0 auto; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.center-point{
+    width: 15px;
+    height: 15px;
+    background: #2a618b;
+    border-radius: 50%;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+.hour{
+    font-size: 25px;
+    position: absolute;
+}
+/* .hour-1{
+    top: 15px;
+    right:60px;
+}
+.hour-2{
+    top: 60px;
+    right:25px;
+} */
+.hour-3{
+    top: 50%;
+    right:-13px;
+    transform: translate(-50%, -50%);
+}
+.hour-9{
+    top: 50%;
+    left:12px;
+    transform: translate(-50%, -50%);
+}
+.hour-6{
+    left: 50%;
+    bottom:-15px;
+    transform: translate(-50%, -50%);
+}
+.hour-12{
+    left: 50%;
+    top:13px;
+    transform: translate(-50%, -50%);
+}
+
+.indicator div{
+    position: absolute;
+    width: 2px;
+    height: 5px;
+    background: rgb(5, 53, 80);
+}
+.indicator div:nth-child(1){
+    transform: rotate(30deg) translatey(-113px);
+}
+.indicator div:nth-child(2){
+    transform: rotate(60deg) translatey(-113px);
+}
+.indicator div:nth-child(3){
+    transform: rotate(120deg) translatey(-113px);
+}
+.indicator div:nth-child(4){
+    transform: rotate(150deg) translatey(-113px);
+}
+.indicator div:nth-child(5){
+    transform: rotate(210deg) translatey(-113px);
+}
+.indicator div:nth-child(6){
+    transform: rotate(240deg) translatey(-113px);
+}
+.indicator div:nth-child(7){
+    transform: rotate(300deg) translatey(-113px);
+}
+.indicator div:nth-child(8){
+    transform: rotate(330deg) translatey(-113px);
+}
+/*  */
+.second-hand-brand {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left:10%;
+    top:10%;
+}
+.second-hand,
+.minute-hand,
+.hour-hand {
+    position: relative;
+}
+.second-hand .hand{
+    position: absolute;
+    width:2px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%, -0%);
+    border-radius: 10px;
+}
+.second-hand .hand::after{
+    content: "";
+    width:5px;
+    height:40px;
+    background: red;
+    position: absolute;
+    bottom: -40px;
+    left:50%;
+    transform: translate(-50%, -0%);
+    border-radius: 10px;
+}
+
+.minute-hand-brand {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}
+
+.minute-hand .hand {
+    position: absolute;
+    width: 5px;
+    height: 80px;
+    background-color: #ccb42f;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    border-radius: 5px;
+}
+
+.hour-hand-brand {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+}
+.hour-hand .hand {
+    position: absolute;
+    width: 10px;
+    height: 50px;
+    background-color: #2b51b9;
+    position: absolute;
+    left: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -0%);
+}
